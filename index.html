@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/all.css" type="text/css">
+  <link id="theme" rel="stylesheet" href="css/light.css" type="text/css">
+  
+  <script src="scripts/picker.js" type="application/javascript"></script>
+</head>
+
+<body>
+
+<h2>
+  GAMR1530 Driving Test
+  <img src="images/picker.png" alt="Colour wheel" width="28" height="28">
+</h2>
+
+<p>
+Theme: 
+<input type="radio" id="light" name="theme" value="light" oninput="onThemeChange()"  onchange="onThemeChange()" checked>
+<label for="light">Light
+<input type="radio" id="dark" name="theme" value="dark" oninput="onThemeChange()"  onchange="onThemeChange()">
+<label for="dark">Dark
+</p>
+
+<div id="controls">
+<dl>
+  <dt>Red:</dt>
+  <dd><input type="range" min="0" max="255" value="128" class="slider" id="red" oninput="onColourChange()"  onchange="onColourChange()"></dd>
+  <dt>Green:</dt>
+  <dd><input type="range" min="0" max="255" value="128" class="slider" id="green" oninput="onColourChange()"  onchange="onColourChange()"></dd>
+  <dt>Blue:</dt>
+  <dd><input type="range" min="0" max="255" value="128" class="slider" id="blue" oninput="onColourChange()"  onchange="onColourChange()"></dd>
+<dl>
+</div>
+
+<div id="fillArea">
+</div>
+
+</body>
+</html>

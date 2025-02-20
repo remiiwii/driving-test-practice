@@ -1,0 +1,11 @@
+#controls {
+  width: 200px;
+}
+
+#fillArea {
+  display:block;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(128, 128, 128);
+  margin-top: 10px;
+}
